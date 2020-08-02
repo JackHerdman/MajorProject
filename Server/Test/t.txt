@@ -1,0 +1,30 @@
+.expect('content-Type',/json/)
+            .expect(400)
+            .expect("'user not created")
+            res) => {
+
+                if(err)return done(err);
+                 expect(new Error).to.be.an('Title is more than 50 characters');
+                 <form action="#" id="form1" name="form1" method="post">
+    <input name="Forename" type="text" required="required" id="Forename2" pattern="^[A-Za-z]+$" />
+</form>
+  function allLetter(inputtxt) {
+        var letters = /^[A-Za-z]+$/;
+        if (inputtxt.value.match(letters)) {
+            return true;
+        }
+        else {
+
+            return false;
+        }
+    }
+    .should.equal(va);
+     it('it should return status 500 if ID is not provided ', (done) => {
+        chai.request(server)
+            .get('/projects/:id')
+            .end((err, res) => {
+                res.should.have.status(500);
+                if (err) return done(err);
+                done();
+            });
+    });

@@ -1,0 +1,28 @@
+
+.form-group.required .control-label:before{ 
+  color: red;
+  content: "*";
+  position: absolute;
+  margin-left: -10px;
+} 
+
+/* stop post code from displaying arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:focus:invalid {
+  border: 2px solid red;
+}
+textarea:focus:invalid {
+  border: 2px solid red;
+}
+
+textarea:valid {
+  border: 1px solid black;
+}
+
+input:valid {
+  border: 1px solid black;
+}
